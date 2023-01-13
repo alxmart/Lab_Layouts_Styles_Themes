@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-
     fun display(view: View){
         info.text="Android Application Development ,Android Security Essentials and Monetize Android Applications"
     }
