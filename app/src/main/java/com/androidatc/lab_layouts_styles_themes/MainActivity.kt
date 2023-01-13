@@ -2,10 +2,22 @@ package com.androidatc.lab_layouts_styles_themes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+
+    fun display(view: View){
+        info.text="Android Application Development ,Android Security Essentials and Monetize Android Applications"
+    }
+
+
+
+
+
 }
